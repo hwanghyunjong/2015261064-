@@ -79,16 +79,16 @@
 
 ## 2.2. 마크다운의 장-단점
 ### 2.2.1. 장점
-	* 간결합니다.
-	* 별도의 도구없이 작성가능합니다.
-	* 다양한 형태로 변환이 가능합니다.
-	* 텍스트(Text)로 저장되기 때문에 용량이 적어 보관이 용이합니다.
-	* 텍스트파일이기 때문에 버전관리시스템을 이용하여 변경이력을 관리할 수 있습니다.
-	* 지원하는 프로그램과 플랫폼이 다양합니다.
+	$ 간결합니다.
+	$ 별도의 도구없이 작성가능합니다.
+	$ 다양한 형태로 변환이 가능합니다.
+	$ 텍스트(Text)로 저장되기 때문에 용량이 적어 보관이 용이합니다.
+	$ 텍스트파일이기 때문에 버전관리시스템을 이용하여 변경이력을 관리할 수 있습니다.
+	$ 지원하는 프로그램과 플랫폼이 다양합니다.
 ### 2.2.2. 단점
-	* 표준이 없습니다.
-	* 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물이 다릅니다.
-	* 모든 HTML 마크업을 대신하지 못합니다.
+	$ 표준이 없습니다.
+	$ 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물이 다릅니다.
+	$ 모든 HTML 마크업을 대신하지 못합니다.
 ****
 # 2. 마크다운 사용법(문법)
 ## 2.1. 헤더Headers
@@ -110,20 +110,20 @@
 
 * 글머리: 1~6까지만 지원
 ```
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
+# Heading1
+## Heading2
+### Heading3
+#### Heading4
+##### Heading5
+###### Heading6
 ```
-# Heading
-## Heading
-### Heading
-#### Heading
-##### Heading
-###### Heading
-####### Heading
+# Heading1
+## Heading2
+### Heading3
+#### Heading4
+##### Heading5
+###### Heading6
+####### Heading7
 
 ## 2.2. BlockQuote
 이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
@@ -238,19 +238,18 @@ fucntion square(n) {
 
 
 ## 2.6. 링크
-* 참조링크 HTML의 하이퍼링크와 같은 링크는 다음과 같이 작성합니다. title은
+HTML의 하이퍼링크와 같은 링크는 다음과 같이 작성합니다. title은
 생략이 가능합니다.
 
+* 참조링크
 ```
-[link keyword][id]
-[id]: URL "Optional Title here"
+[example](http://example.com "title")
 
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+검색엔진은 [구글](https://www.google.com "구글")을 사용합니다.
 ```
+[example](http://example.com "title")
 
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+검색엔진은 [구글](https://www.google.com "구글")을 사용합니다.
 
 * 인라인 링크
 ```
