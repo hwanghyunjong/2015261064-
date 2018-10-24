@@ -291,7 +291,7 @@ __강조__한 텍스트
 ```
 ![Github](./public/img/3/github.png)
 ```
-![github-mark](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
+![github-mark](https://assets-cdn.github.com/images/modules/open_graph/github-logo.png)
 
 
 
