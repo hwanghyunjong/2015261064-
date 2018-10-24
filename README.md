@@ -18,36 +18,19 @@
 
 ### 1.2 환경설정
 ```sh
-git config --global --list [현재 설정정보 조회할 수 있습니다.]
-git config --global user.name "사용자명" [사용자명을 등록합니다 (필수)]
-git config --global user.email "이메일주소" [이메일 주소를 등록합니다. (필수)]
-git config --global color.ui “auto” [터미널에 표시되는 메시지에 칼라를 표시해줌]
+1. git config --global --list [현재 설정정보 조회할 수 있습니다.]
+2. git config --global user.name "사용자명" [사용자명을 등록합니다 (필수)]
+3. git config --global user.email "이메일주소" [이메일 주소를 등록합니다. (필수)]
+4. git config --global color.ui “auto” [터미널에 표시되는 메시지에 칼라를 표시해줌]
 ```
 
 ### 1.3 기본적인 명령어
-#### 현재 git의 버전을 확인합니다.
 ```sh
-git --version
-```
-
-#### 현재 디렉토리에 git 저장소를 생성합니다.
-```sh
-git init
-```
-
-#### git add는 새로운 파일을 git에 등록시킵니다.
-```sh
-git add 파일명
-```
-
-#### 스테이징 영역에 올라가 있는 파일들을 커밋(현재까지 작업한 내용 저장)
-```sh
-git commit -m "커밋메시지"
-```
-
-#### 지정한 커밋의 로그메시지를 다시 사용하여 기존커밋을 수정합니다
-```sh
-git commit -C HEAD -a --amend
+1. git --version [현재 git의 버전을 확인합니다.]
+2. git init [현재 디렉토리에 git 저장소를 생성합니다.]
+3. git add 파일명 [git add는 새로운 파일을 git에 등록시킵니다.]
+4. git commit -m "커밋메시지" [스테이징 영역에 올라가 있는 파일들을 커밋(현재까지 작업한 내용 저장)]
+5. git commit -C HEAD -a --amend [지정한 커밋의 로그메시지를 다시 사용하여 기존커밋을 수정합니다]
 ```
 
 
