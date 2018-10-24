@@ -263,7 +263,8 @@ end code block.
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
-[naverlink]: https://naver.com
+[Naver][naverlink]
+[naverlink]: https://naver.com "Naver"
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 
