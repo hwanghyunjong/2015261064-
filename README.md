@@ -16,18 +16,26 @@
 >
 > * 기본원격 저장소를 origin이라고 부릅니다. </pre>
 
-### 환경설정
-><pre> git config --global --list 
->현재 설정정보 조회할 수 있습니다. --global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않습니다.
->
->git config --global user.name "사용자명" 
->사용자명을 등록합니다 (필수)
->
->git config --global user.email "이메일주소" 
->이메일 주소를 등록합니다. (필수)
->
->git config --global color.ui “auto”
->터미널에 표시되는 메시지에 칼라를 표시해줌</pre>
+#### 환경설정
+##### 현재 설정정보 조회할 수 있습니다. --global옵션은 전역설정에 대한 옵션이며 현재 프로젝트에만 적용할때는 주지 않습니다.
+```sh
+git config --global --list 
+```
+
+##### 사용자명을 등록합니다 (필수)
+```sh
+git config --global user.name "사용자명" 
+```
+
+##### 이메일 주소를 등록합니다. (필수)
+```sh
+git config --global user.email "이메일주소" 
+```
+
+##### 터미널에 표시되는 메시지에 칼라를 표시해줌
+```sh
+git config --global color.ui “auto”
+```
 
 ### 기본적인 명령어
 ><pre>
