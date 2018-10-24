@@ -281,7 +281,7 @@ __강조__한 텍스트
 
 ~~취소~~한 
 
-### 2.3.7 이미지 삽입(Images)
+### 2.3.8 이미지 삽입(Images)
 이미지는 역시 HTML의 ```<img>```태그와 동일하게 작동합니다. 대체
 텍스트를 삽입할 수 있으며, 링크 또는 로컬의 이미지파일을 연결할 수 있습니다.
 ```
@@ -291,7 +291,7 @@ __강조__한 텍스트
 ```
 ![Github](./public/img/3/github.png)
 ```
-![github-mark](‪./photo/github-mark.png)
+![github-mark](‪https://www.stickersdevs.com.br/wp-content/uploads/2017/03/github-octocat-sticker-adesivo.png)
 
 
 
