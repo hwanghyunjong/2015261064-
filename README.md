@@ -263,7 +263,7 @@ end code block.
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
-
+[naverlink]: https://naver.com
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 
@@ -275,11 +275,11 @@ Link: [Google](https://google.com, "google link")
 
 * 자동연결
 ```
-<http://example.com/>
+<http://github.com/>
 <address@example.com>
 ```
 
-<http://example.com/>
+<http://github.com/>
 <address@example.com>
 
 ## 2.7. 강조
