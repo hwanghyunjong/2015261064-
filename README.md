@@ -18,8 +18,14 @@
 </pre>
 
 ### 기본적인 명령어
-*git --version*
+<pre>
+**git --version**
 현재 git의 버전을 확인합니다.
+
+git init
+현재 디렉토리에 git 저장소를 생성합니다.
+
+</pre>
 
 
 
