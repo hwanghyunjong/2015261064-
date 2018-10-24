@@ -291,7 +291,7 @@ __강조__한 텍스트
 ```
 ![Github](./public/img/3/github.png)
 ```
-![Github](/D:\/github-mark.png)
+![github-mark](./photo/github-mark.png)
 
 
 
