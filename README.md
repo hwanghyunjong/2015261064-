@@ -38,23 +38,30 @@ git config --global color.ui “auto”
 ```
 
 ### 기본적인 명령어
-><pre>
-> git --version
-> 현재 git의 버전을 확인합니다.
->
-> git init
-> 현재 디렉토리에 git 저장소를 생성합니다.
->
-> git add 파일명
-> git add는 새로운 파일을 git에 등록시킵니다.
->
-> git commit -m "커밋메시지"
-> 스테이징 영역에 올라가 있는 파일들을 커밋(현재까지 작업한 내용 저장)
->
-> git commit -C HEAD -a --amend
-> 지정한 커밋의 로그메시지를 다시 사용하여 기존커밋을 수정합니다 -c를 사용하면 기존메시지를 
-> 수정할 수 있는 편집기를 실행해 줍니다.
-></pre>
+#### 현재 git의 버전을 확인합니다.
+```sh
+git --version
+```
+
+#### 현재 디렉토리에 git 저장소를 생성합니다.
+```sh
+git init
+```
+
+#### git add는 새로운 파일을 git에 등록시킵니다.
+```sh
+git add 파일명
+```
+
+#### 스테이징 영역에 올라가 있는 파일들을 커밋(현재까지 작업한 내용 저장)
+```sh
+git commit -m "커밋메시지"
+```
+
+#### 지정한 커밋의 로그메시지를 다시 사용하여 기존커밋을 수정합니다
+```sh
+git commit -C HEAD -a --amend
+```
 
 
 
