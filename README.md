@@ -292,7 +292,10 @@ __강조__한 텍스트
 ![Github](./public/img/3/github.png)
 ```
 ![github-mark](https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png)
-
+```
+![github-mark](https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png)
+```
+![github-mark](https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png)
 
 
 
