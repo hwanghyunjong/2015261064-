@@ -64,4 +64,9 @@
 5. git push <원격 저장소> [새로운 로컬 브랜치를 원격 저장소에 푸싱하기]
 ```
 
-
+### 1.6 TAG
+```sh
+1. git tag -a {tag name} -m {tag message} {commit hash} [태그 생성]
+2. git tag -d {tag name}[태그 삭제]
+3. git push origin --tags [태그 푸시]
+```
