@@ -291,7 +291,7 @@ __강조__한 텍스트
 ```
 ![Github](./public/img/3/github.png)
 ```
-![github-mark](‪https://www.stickersdevs.com.br/wp-content/uploads/2017/03/github-octocat-sticker-adesivo.png)
+![github-mark](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0)
 
 
 
