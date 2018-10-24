@@ -297,5 +297,6 @@ __강조__한 텍스트
 ```
 ![github-mark](https://cdn-images-1.medium.com/max/1200/1*dDNpLKu_oTLzStsDTnkJ-g.png)
 
+사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
 
 
