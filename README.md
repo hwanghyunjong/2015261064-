@@ -202,31 +202,26 @@
     	+ 3단계
 			= 4단계
 
-## 2.4. 코드```<pre><code></code></pre>```
-4개의 공백 또는 하나의 탭으로 들여쓰기를 만나면 변환되기 시작하여 들여쓰지 않은 행을 만날때까지 변환이 계속된다.
+## 2.4. 코드블럭(Code blocks)
+코드블럭은 일반 문장 사이에 단어, 짧은 문장 단위로 표현할 수 있는 방법과 여러줄의 코드를 삽입하는 방법이 있습니다.
 
-> 한줄 띄어쓰면 인식이 제대로 안되는 문제가 발생하곤 합니다.
+> 단어, 한줄의 코드를 감싸는 경우 `를 감쌉니다.
 
 ```
-This is a normal paragraph:
-
-    This is a code block.
-end code block.
+마크다운은 코드블럭을 `<pre>`와 `<code>`로 감쌉니다.
 ```
 
-<code>
-```
-This is a normal paragraph:
-    This is a code block.
-end code block.
-```
-</code>
+마크다운은 코드블럭을 ```<pre>```와 ```<code>```로 감쌉니다.
 
-실제로 적용해보면,
-This is a normal paragraph:
+여러줄의 코드를 나타내는 코드블럭의 경우 코드블럭의 시작과 끝을 
+'''으로 감싸고 내부에 코드를 작성하면 됩니다.
 
-    This is a code block.
-end code block.
+```
+fucntion square(n) {
+  return n * n;
+}
+```
+
 
 ## 2.5. 수평선```<hr/>```
 아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 *페이지 나누기* 용도로 많이 사용한다.
