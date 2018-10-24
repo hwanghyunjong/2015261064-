@@ -79,63 +79,63 @@
 
 ## 2.2. 마크다운의 장-단점
 ### 2.2.1. 장점
-	1. 간결합니다.
-	2. 별도의 도구없이 작성가능합니다.
-	3. 다양한 형태로 변환이 가능합니다.
-	3. 텍스트(Text)로 저장되기 때문에 용량이 적어 보관이 용이합니다.
-	4. 텍스트파일이기 때문에 버전관리시스템을 이용하여 변경이력을 관리할 수 있습니다.
-	5. 지원하는 프로그램과 플랫폼이 다양합니다.
+	* 간결합니다.
+	* 별도의 도구없이 작성가능합니다.
+	* 다양한 형태로 변환이 가능합니다.
+	* 텍스트(Text)로 저장되기 때문에 용량이 적어 보관이 용이합니다.
+	* 텍스트파일이기 때문에 버전관리시스템을 이용하여 변경이력을 관리할 수 있습니다.
+	* 지원하는 프로그램과 플랫폼이 다양합니다.
 ### 2.2.2. 단점
-	1. 표준이 없습니다.
-	2. 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물이 다릅니다.
-	3. 모든 HTML 마크업을 대신하지 못합니다.
+	* 표준이 없습니다.
+	* 표준이 없기 때문에 도구에 따라서 변환방식이나 생성물이 다릅니다.
+	* 모든 HTML 마크업을 대신하지 못합니다.
 ****
 # 2. 마크다운 사용법(문법)
 ## 2.1. 헤더Headers
 * 큰제목: 문서 제목
     ```
-    This is an H1
+    Heading
     =============
     ```
-    This is an H1
+    Heading
     =============
 
 * 작은제목: 문서 부제목
     ```
-    This is an H2
+    Heading
     -------------
     ```
-    This is an H2
+    Heading
     -------------
 
 * 글머리: 1~6까지만 지원
 ```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
+# Heading
+## Heading
+### Heading
+#### Heading
+##### Heading
+###### Heading
 ```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
-####### This is a 7.
+# Heading
+## Heading
+### Heading
+#### Heading
+##### Heading
+###### Heading
+####### Heading
 
 ## 2.2. BlockQuote
 이메일에서 사용하는 ```>``` 블럭인용문자를 이용한다.
 ```
-> This is a blockqute.
+> Lorem ipsum dolor sit amet
 ```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
+> Lorem ipsum dolor sit amet
+>	> Lorem ipsum dolor sit amet
+>	>	> Lorem ipsum dolor sit amet
 
 이 안에서는 다른 마크다운 요소를 포함할 수 있다.
-> ### This is a H3
+> ### Heading
 > * List
 >	```
 >	code
@@ -145,13 +145,13 @@
 ### ● 순서있는 목록(번호)
 순서있는 목록은 숫자와 점을 사용한다.
 ```
-1. 첫번째
-2. 두번째
-3. 세번째
+1. First
+2. Second
+3. Third
 ```
-1. 첫번째
-2. 두번째
-3. 세번째
+1. First
+2. Second
+3. Third
 
 **현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.**
 ```
@@ -190,20 +190,7 @@ tab 또는 2칸 띄어쓰기를 통해 중첩된 항목을 작성할 수 있습�
 - red
   - green
     - blue
-
-혼합해서 사용하는 것도 가능하다(내가 선호하는 방식)
-```
-* 1단계
-    - 2단계
-    	+ 3단계
-            = 4단계
-```
-
-* 1단계
-    - 2단계
-    	+ 3단계
-			= 4단계
-
+    
 ## 2.4. 코드블럭(Code blocks)
 코드블럭은 일반 문장 사이에 단어, 짧은 문장 단위로 표현할 수 있는 방법과 여러줄의 코드를 삽입하는 방법이 있습니다.
 
@@ -251,7 +238,8 @@ fucntion square(n) {
 
 
 ## 2.6. 링크
-* 참조링크
+* 참조링크 HTML의 하이퍼링크와 같은 링크는 다음과 같이 작성합니다. title은
+생략이 가능합니다.
 
 ```
 [link keyword][id]
@@ -260,8 +248,7 @@ fucntion square(n) {
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
-[Naver][naverlink]
-[naverlink]: https://naver.com "Naver"
+
 Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 
