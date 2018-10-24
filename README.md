@@ -251,12 +251,6 @@ HTML의 하이퍼링크와 같은 링크는 다음과 같이 작성합니다. ti
 
 검색엔진은 [구글](https://www.google.com "구글")을 사용합니다.
 
-* 인라인 링크
-```
-syntax: [Title](link)
-```
-Link: [Google](https://google.com, "google link")
-
 * 자동연결
 ```
 <http://github.com/>
@@ -267,17 +261,22 @@ Link: [Google](https://google.com, "google link")
 <address@example.com>
 
 ## 2.7. 강조
+HTML의 ```<em>```과 같은 동작을 하는 강조는 ```*```, ```_```가 있고
+```<strong>```은 ```**```와 ```__```를 사용합니다. 취소선은 ```~~```을 사용합니다.
 ```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-++underline++
-~~cancelline~~
+*강조*한 텍스트
+_강조_한 텍스트
 ```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-++underline++
-~~cancelline~~
+*강조*한 텍스트
+
+```
+**강조**한 텍스트
+__강조__한 텍스트
+```
+**강조**한 텍스트
+
+```
+~~취소~~한 텍스트
+```
+
+~~취소~~한 
